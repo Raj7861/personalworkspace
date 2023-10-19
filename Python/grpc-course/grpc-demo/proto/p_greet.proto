@@ -1,0 +1,19 @@
+syntax = "proto3";
+
+package p_greet;
+
+service P_GREETER {
+    rpc Greet (GreetRequest) returns (GreetResponse);
+};
+
+message GreetRequest {
+    string name = 1;
+    string greeting = 2;
+}
+
+message GreetResponse {
+    string message = 1; 
+}
+
+
+//python3 -m grpc_tools.protoc -I proto --python_out=. --grpc_python_out=. proto/greet.proto 

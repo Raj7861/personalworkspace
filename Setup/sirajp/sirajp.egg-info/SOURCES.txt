@@ -1,0 +1,8 @@
+setup.py
+sirajp/__init__.py
+sirajp/calculator.py
+sirajp.egg-info/PKG-INFO
+sirajp.egg-info/SOURCES.txt
+sirajp.egg-info/dependency_links.txt
+sirajp.egg-info/requires.txt
+sirajp.egg-info/top_level.txt
